@@ -1,0 +1,33 @@
+#usermenu{
+    font-family: 'Arial';
+    color:rgba(2153, 255, 51, 0.8);
+    text-transform: capitalize;
+    
+}
+
+#card-title {
+    text-align: center;
+}
+
+#btn__agregar {
+    display: inline-block;
+    width: 50px;
+    position: relative;
+
+}
+
+#mensajeSuccess {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    position: absolute; top: 90; left: 60;
+    z-index: 100;
+
+}
+
+#errorsMessage {
+    z-index: 100;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
